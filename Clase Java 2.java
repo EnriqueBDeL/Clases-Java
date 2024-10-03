@@ -8,7 +8,7 @@ public class ClaseJava2 {
     public static void main(String[] args) {
 
        
-        // En java puedes cambiar el tipo de variable de la siguiente manera:
+        // En Java puedes cambiar el tipo de variable de la siguiente manera:
         
         int i = 4;
         double d = i;
