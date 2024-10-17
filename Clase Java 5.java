@@ -81,12 +81,13 @@ public class ClaseJava5 { //Esto es una Clase.
       Coche.method_coches();
       
       
-      methodEstatico();
+      methodEstatico(); //Method Estatico
         
      
-      //Un method publico, no se pude usar como un static.
-      ClaseJava5 myObjet = new ClaseJava5();
+      ClaseJava5 myObjet = new ClaseJava5(); //Method Publico
       myObjet.methodPublico();
+
+        
       myObjet.velocidad(200);
       
     }
