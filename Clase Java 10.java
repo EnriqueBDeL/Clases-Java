@@ -1,6 +1,6 @@
-//---------------------------------------------|
+//--------------------------------------------------------------|
 //CONTENIDO: Clase Genérica, Autoboxing y Sentencias try-catch 
-//---------------------------------------------|
+//--------------------------------------------------------------|
 package clase.java.pkg10;
 
 import java.util.ArrayList;// Importar la clase ArrayList
