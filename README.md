@@ -55,6 +55,31 @@ Orden:
   <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/Clase%20Java%2011" target="_blank">
     <button>[Herencia]</button>
   </a>
+  <br>
+  Clase Java 12 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2012.java" target="_blank">
+    <button>[Sentencia equals]</button>
+  </a>
+  <br>
+  Clase Java 13 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2013.java" target="_blank">
+    <button>[Sentencia scanner]</button>
+  </a>
+  <br>
+  Clase Java 14 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2014.java" target="_blank">
+    <button>[Fechas en Java]</button>
+  </a>
+  <br>
+  Clase Java 15 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2015.java" target="_blank">
+    <button>[subList() y isEmpty()]</button>
+  </a>
+  <br>
+  Clase Java 16 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2016.java" target="_blank">
+    <button>[HashMap y Map]</button>
+  </a>
 </div>
 
 
