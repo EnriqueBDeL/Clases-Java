@@ -1,16 +1,62 @@
 Orden:
 
-- Clase Java 1 [Introducción]: https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%201.java
-- Clase Java 2 [Introducción 2]: https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%202.java
-- Clase Java 3 [If Else,Switch,While,For y Arrays]: https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%203.java
-- Clase Java 4 [Method]: https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%204.java
-- Clase Java 5 [Clases, Method y Objetos]: https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%205.java
-- Clase Java 6 [Constructor]: https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%206.java
-- Clase Java 7 [Accesos]: https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%207/src/clase/java/pkg7/PorDefecto.java
-- Clase Java 8 [Enumeracion,Importar Clases]: https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%208/src/clase/java/pkg8/ClaseJava8.java
-- CLase Java 9 [Constructor con dos parametros]: https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%209.java
-- Clase Java 10 [ Clase Genérica, Autoboxing y Sentencias try-catch]: https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2010.java
-- Clase Java 11 [Herencia]:https://github.com/EnriqueBDeL/Clases-Java/tree/main/Clase%20Java%2011
+<div align="left">
+  Clase Java 1 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%201.java" target="_blank">
+    <button>[Introducción]</button>
+  </a>
+  <br>
+  Clase Java 2 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%202.java" target="_blank">
+    <button>[Introducción 2]</button>
+  </a>
+  <br>
+  Clase Java 3 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%203.java" target="_blank">
+    <button>[If Else, Switch, While, For y Arrays]</button>
+  </a>
+  <br>
+  Clase Java 4 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%204.java" target="_blank">
+    <button>[Method]</button>
+  </a>
+  <br>
+  Clase Java 5 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%205.java" target="_blank">
+    <button>[Clases, Method y Objetos]</button>
+  </a>
+  <br>
+  Clase Java 6 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%206.java" target="_blank">
+    <button>[Constructor]</button>
+  </a>
+  <br>
+  Clase Java 7 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%207/src/clase/java/pkg7/PorDefecto.java" target="_blank">
+    <button>[Accesos]</button>
+  </a>
+  <br>
+  Clase Java 8 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%208/src/clase/java/pkg8/ClaseJava8.java" target="_blank">
+    <button>[Enumeración, Importar Clases]</button>
+  </a>
+  <br>
+  Clase Java 9 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%209.java" target="_blank">
+    <button>[Constructor con dos parámetros]</button>
+  </a>
+  <br>
+  Clase Java 10 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2010.java" target="_blank">
+    <button>[Clase Genérica, Autoboxing y Sentencias try-catch]</button>
+  </a>
+  <br>
+  Clase Java 11 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/Clase%20Java%2011" target="_blank">
+    <button>[Herencia]</button>
+  </a>
+</div>
+
 
 <br><br>
 
