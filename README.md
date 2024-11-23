@@ -82,6 +82,17 @@ Orden:
   </a>
 </div>
 
+<br><br>
+
+Ejemplos de Examen:
+
+<div>
+  Ejemplo 1
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/Ejemplo%20Examen" target="_blank">
+    <button>[Cesta de la compra]</button>
+  </a>
+</div>
+
 
 <br><br>
 
