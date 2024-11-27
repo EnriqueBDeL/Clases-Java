@@ -80,6 +80,11 @@ Orden:
   <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2016.java" target="_blank">
     <button>[HashMap y Map]</button>
   </a>
+    <br>
+  Clase Java 17 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2017.java" target="_blank">
+    <button>[clone()]</button>
+  </a>
 </div>
 
 <br><br>
