@@ -85,6 +85,26 @@ Orden:
   <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2017.java" target="_blank">
     <button>[clone()]</button>
   </a>
+   <br>
+  Clase Java 18 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/Clase%20Java%2018" target="_blank">
+    <button>[Clase abstracta]</button>
+  </a>
+    <br> 
+  Clase Java 19
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2019.java" target="_blank">
+    <button>[LinkedList]</button>
+  </a>
+    <br>
+    Clase Java 20
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/Clase%20Java%2020" target="_blank">
+    <button>[Interface]</button>
+  </a>
+    <br>
+      Clase Java 21
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2021.java" target="_blank">
+    <button>[Throws]</button>
+  </a>
 </div>
 
 <br><br>
