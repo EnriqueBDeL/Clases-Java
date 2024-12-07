@@ -105,6 +105,11 @@ Orden:
   <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2021.java" target="_blank">
     <button>[Throws]</button>
   </a>
+   <br>
+      Clase Java 22
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2022.java" target="_blank">
+    <button>[Java Swing]</button>
+  </a>
 </div>
 
 <br><br>
