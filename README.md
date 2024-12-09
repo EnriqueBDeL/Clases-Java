@@ -135,6 +135,13 @@ Cosas que quizás necesites:
 - Mas clases con W3schools: https://www.w3schools.com/java/default.asp
 
 - Elegir la clase a ejecutar en NetBeans: https://salvadorhm.blogspot.com/2014/09/elegir-la-clase-ejecutar-en-netbeans.html
+  
+- The JComponent Class: https://docs.oracle.com/javase/tutorial/uiswing/components/jcomponent.html
+  
+- How to Use Various Components: https://docs.oracle.com/javase/tutorial/uiswing/components/componentlist.
+  
+- A Visual Guide to Layout Managers: https://docs.oracle.com/javase/tutorial/uiswing/layout/visual.html
+  
 
 <br><br>
 
