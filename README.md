@@ -112,7 +112,7 @@ Orden:
   </a>
 </div>
 
-<br><br>
+<br>
 
 Ejemplos de Examen:
 
@@ -125,10 +125,10 @@ Ejemplos de Examen:
 
 
 <br><br>
+> [!NOTE]
+>Los códigos '.java' de las carpetas se encuentran en la carpeta 'src/...'.
 
-Los códigos '.java' de las carpetas se encuentran en la carpeta 'src/...'.
-
-<br><br>
+<br>
 
 Cosas que quizás necesites:
 
