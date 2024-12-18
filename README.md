@@ -110,6 +110,16 @@ Orden:
   <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2022.java" target="_blank">
     <button>[Java Swing]</button>
   </a>
+   <br>
+      Clase Java 23
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2023.java" target="_blank">
+    <button>[Java Swing II]</button>
+  </a>
+     <br>
+      Clase Java 24
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/Clase%20Java%2024" target="_blank">
+    <button>[Instanceof]</button>
+  </a>
 </div>
 
 <br>
