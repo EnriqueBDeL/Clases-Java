@@ -120,6 +120,26 @@ Orden:
   <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/Clase%20Java%2024" target="_blank">
     <button>[Instanceof]</button>
   </a>
+    <br>
+      Clase Java 25
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2025.java" target="_blank">
+    <button>[Abrir o Crear un Fichero]</button>
+  </a>
+    <br>
+      Clase Java 26
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2026.java" target="_blank">
+    <button>[Escribir en un Fichero]</button>
+  </a>
+    <br>
+      Clase Java 27
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2027.java" target="_blank">
+    <button>[Eliminar un Fichero]</button>
+  </a>
+    <br>
+      Clase Java 28
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2028.java" target="_blank">
+    <button>[Leer desde un Fichero]</button>
+  </a>
 </div>
 
 <br>
