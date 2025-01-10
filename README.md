@@ -171,6 +171,13 @@ Cosas que quizás necesites:
 - How to Use Various Components: https://docs.oracle.com/javase/tutorial/uiswing/components/componentlist
   
 - A Visual Guide to Layout Managers: https://docs.oracle.com/javase/tutorial/uiswing/layout/visual.html
+
+<br><br>
+
+
+> [!WARNING]  
+> Este repositorio ha sido creado durante mis estudios, por lo que puede contener errores o no seguir las mejores prácticas. Se recomienda contrastar la información y tener en cuenta que esta forma de programar podría no ser la esperada o recomendada por su profesor. 
+
   
 
 <br><br>
