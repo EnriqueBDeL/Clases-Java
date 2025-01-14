@@ -143,7 +143,12 @@ Orden:
       <br>
       Clase Java 29
   <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Comparativa%20De%20Estructuras%20De%20Datos.java" target="_blank">
-    <button>[Comparativa De Estructuras De Datos]</button>
+    <button>[Ejemplo Comparativa De Estructuras De Datos]</button>
+  </a>
+        <br>
+      Clase Java 30
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Menu.java" target="_blank">
+    <button>Ejemplo Menu]</button>
   </a>
 </div>
 
