@@ -155,6 +155,10 @@ Orden:
   <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2031.java" target="_blank">
     <button>[HashSet]</button>
   </a>
+  &nbsp;
+    <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Set.java" target="_blank">
+    <button>[Set]</button>
+  </a>
 </div>
 
 <br>
