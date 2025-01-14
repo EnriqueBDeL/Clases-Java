@@ -148,7 +148,12 @@ Orden:
         <br>
       Clase Java 30
   <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Menu.java" target="_blank">
-    <button>Ejemplo Menu]</button>
+    <button>[Ejemplo Menu]</button>
+  </a>
+      <br>
+      Clase Java 31
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase%20Java%2031.java" target="_blank">
+    <button>[HashSet]</button>
   </a>
 </div>
 
@@ -157,9 +162,29 @@ Orden:
 Ejemplos de Examen:
 
 <div>
-  Ejemplo 1
+  Ejemplo examen 1
   <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/Ejemplo%20Examen" target="_blank">
     <button>[Cesta de la compra]</button>
+  </a>
+      <br>
+      Ejercicio tipo examen 1
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Ejercicio%20tipo%20examen.java" target="_blank">
+    <button>[Ejercicio I]</button>
+  </a>
+       <br>
+      Ejercicio tipo examen 2 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Ejercicio%20tipo%20examen%202.java" target="_blank">
+    <button>[Ejercicio II]</button>
+  </a>
+       <br>
+      Ejercicio tipo examen 3
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Ejercicio%20tipo%20examen%203.java" target="_blank">
+    <button>[Ejercicio III]</button>
+  </a>
+      <br>
+      Ejercicio tipo examen 4
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Ejercicio%20tipo%20examen%204.java" target="_blank">
+    <button>[Ejercicio IV]</button>
   </a>
 </div>
 
