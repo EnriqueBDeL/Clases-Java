@@ -215,6 +215,8 @@ Cosas que quizás necesites:
   
 - A Visual Guide to Layout Managers: https://docs.oracle.com/javase/tutorial/uiswing/layout/visual.html
 
+- Programación Orientada a Objetos (POO): Abstracción, Encapsulamiento, Herencia, Polimorfismo: https://youtu.be/SI7O81GMG2A?si=2GIRoBtxnKfCAwLq
+
 <br><br>
 
 
