@@ -217,6 +217,8 @@ Cosas que quizás necesites:
 
 - Programación Orientada a Objetos (POO): Abstracción, Encapsulamiento, Herencia, Polimorfismo: https://youtu.be/SI7O81GMG2A?si=2GIRoBtxnKfCAwLq
 
+- Como resetear , restaurar netbeans para principiantes: https://youtu.be/CasfDpmBjGs?si=1lr1Ls6I0-sVexkm
+
 <br><br>
 
 
