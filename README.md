@@ -219,6 +219,8 @@ Cosas que quizás necesites:
 
 - Como resetear , restaurar netbeans para principiantes: https://youtu.be/CasfDpmBjGs?si=1lr1Ls6I0-sVexkm
 
+- TodoCode: https://youtube.com/playlist?list=PLQxX2eiEaqbwNP20GMMCjRslRq2lOLWlg&si=TMdh4FK-XzklwIK-
+
 <br><br>
 
 
