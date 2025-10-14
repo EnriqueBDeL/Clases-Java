@@ -1,4 +1,4 @@
-Orden:
+Clases POO:
 
 <div align="left">
   Clase Java 1 
@@ -164,6 +164,32 @@ Orden:
     <button>[Set]</button>
   </a>
 </div>
+
+<br>
+
+
+Clases DAD:
+
+<div align="left">
+  Clase DAD 1 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/ClaseJavaDAD1.java" target="_blank">
+    <button>[Extends Thread]</button>
+  </a>
+    <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/EjemploHiloExtend.java" target="_blank">
+    <button>[Ejemplo Extends Thread]</button>
+  </a>
+  <br>
+    Clase DAD 2 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Clase2JavaDad1.java" target="_blank">
+    <button>[Implements Runnable]</button>
+  </a>
+   <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/EjemploHiloImplements.java" target="_blank">
+    <button>[Ejemplo Implements Runnable]</button>
+  </a>
+  <br>
+</div>
+
+
 
 <br>
 
