@@ -1,0 +1,32 @@
+
+¿Que es un socket?
+
+Permiten que dos programas diferentes, ya sea en la misma máquina o en máquinas distintas a través de internet, puedan "hablar" entre sí.
+
+
+Claves necesarias:
+
+- Una Dirección IP --> Identifica de forma única a una máquina en una red.
+
+- Un Puerto --> Una vez que llegas a la máquina correcta (la IP), el puerto le dice a qué aplicación específica debe entregarse el mensaje.
+
+
+
+Modelo Cliente-Servidor:
+
+- El Servidor (El que escucha)
+
+- El Cliente (El que inicia)
+
+
+
+Modo de ejecución:
+
+	1º Compilar clase Servidor.
+	
+	2º Complar clase Cliente.
+	
+	Explicación: Si no se hace en este orden, el cliente intentará conectarse con un servidor que está apagado.
+
+
+
