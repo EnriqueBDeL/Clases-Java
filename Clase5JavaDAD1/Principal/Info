@@ -1,0 +1,41 @@
+
+Estructura:
+
+	[Cliente] <----> [HiloCliente] <----> [HiloServidor] <----> [Servidor]
+			     ^
+			     |
+			  	 |
+			  [Canal]
+		
+		
+		
+		
+		
+Funcionamiento:
+
+	Múltiples usuarios se conecten a un servidor central para chatear en tiempo real.
+
+
+
+
+
+
+¿Que hace HiloCliente?
+
+	Se dedica exclusivamente a escuchar y mostrar en pantalla los mensajes que llegan desde el servidor.
+	
+	
+	
+	
+	
+Funcionalidades HiloServidor:
+
+	HiloServidor puede procesar comandos especiales que el cliente escriba:
+
+	- Mensajes a todos (por defecto).
+	
+	- MSG: Enviar un mensaje privado a un nick específico.
+	
+	- ADDCANAL: Crear una sala de chat (la clase Canal.java guarda los miembros).
+	
+	- MSG2CANAL: Enviar un mensaje solo a los miembros de ese canal.
