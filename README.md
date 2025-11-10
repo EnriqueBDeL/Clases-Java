@@ -167,6 +167,38 @@ Clases POO:
 
 <br>
 
+<br><br>
+Ejemplos de Examen:
+
+<div>
+  Ejemplo examen 1
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/Ejemplo%20Examen" target="_blank">
+    <button>[Cesta de la compra]</button>
+  </a>
+      <br>
+      Ejercicio tipo examen 1
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Ejercicio%20tipo%20examen.java" target="_blank">
+    <button>[Ejercicio I]</button>
+  </a>
+       <br>
+      Ejercicio tipo examen 2 
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Ejercicio%20tipo%20examen%202.java" target="_blank">
+    <button>[Ejercicio II]</button>
+  </a>
+       <br>
+      Ejercicio tipo examen 3
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Ejercicio%20tipo%20examen%203.java" target="_blank">
+    <button>[Ejercicio III]</button>
+  </a>
+      <br>
+      Ejercicio tipo examen 4
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Ejercicio%20tipo%20examen%204.java" target="_blank">
+    <button>[Ejercicio IV]</button>
+  </a>
+</div>
+
+  <br> <br>
+
 
 Clases DAD:
 
@@ -205,36 +237,21 @@ Clases DAD:
 </div>
 
 
-
 <br><br>
 Ejemplos de Examen:
 
-<div>
-  Ejemplo examen 1
-  <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/Ejemplo%20Examen" target="_blank">
-    <button>[Cesta de la compra]</button>
+  Ejercicio tipo examen 1
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/Ejercicio1%20Tipo%20Examen%20DAD1" target="_blank">
+    <button>[Concesionario]</button>
   </a>
       <br>
-      Ejercicio tipo examen 1
-  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Ejercicio%20tipo%20examen.java" target="_blank">
-    <button>[Ejercicio I]</button>
+        Ejercicio tipo examen 2
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/Ejercicio2%20Tipo%20Examen%20DAD1" target="_blank">
+    <button>[Constructora]</button>
   </a>
        <br>
-      Ejercicio tipo examen 2 
-  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Ejercicio%20tipo%20examen%202.java" target="_blank">
-    <button>[Ejercicio II]</button>
-  </a>
-       <br>
-      Ejercicio tipo examen 3
-  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Ejercicio%20tipo%20examen%203.java" target="_blank">
-    <button>[Ejercicio III]</button>
-  </a>
-      <br>
-      Ejercicio tipo examen 4
-  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Ejercicio%20tipo%20examen%204.java" target="_blank">
-    <button>[Ejercicio IV]</button>
-  </a>
 </div>
+
 
 
 <br><br>
