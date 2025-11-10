@@ -1,4 +1,4 @@
-Clases POO:
+# Clases POO:
 
 <div align="left">
   Clase Java 1 
@@ -200,7 +200,7 @@ Ejemplos de Examen:
   <br> <br>
 
 
-Clases DAD:
+# Clases DAD:
 
 <div align="left">
   Clase DAD 1 
