@@ -1,0 +1,70 @@
+========================================================================
+RESUMEN RMI (REMOTE METHOD INVOCATION)
+========================================================================
+
+
+1. ¿QUÉ ES RMI?
+   RMI (Invocación de Métodos Remotos) es una tecnología de Java que permite
+   que un objeto que vive en una Máquina Virtual Java (JVM) llame a métodos
+   de un objeto que está en otra JVM (normalmente en otro ordenador).
+
+   Objetivo: Hacer que la programación distribuida (redes) parezca programación
+   local. Tú llamas a `objeto.suma(1,2)` y te olvidas de sockets, puertos o tramas.
+
+
+
+
+2. ARQUITECTURA BÁSICA
+   
+   [CLIENTE]  <---- Red ---->  [SERVIDOR]
+       |                           |
+    (Stub)                    (Skeleton/Impl)
+       |                           |
+   Llama método                 Ejecuta código
+
+
+
+   A. Interfaz Remota (CalculadoraInt):
+      Es el contrato. Define QUÉ se puede hacer, pero no CÓMO.
+      Debe extender `java.rmi.Remote` y lanzar `RemoteException`.
+
+   B. Implementación (CalculadoraImpl):
+      Es el objeto real en el servidor. Extiende `UnicastRemoteObject`
+      para adquirir la capacidad de ser contactado por red.
+
+   C. RMI Registry (Listín Telefónico):
+      Es un servicio simple que corre en el servidor (puerto 1099 o 1010).
+      Mapea NOMBRES (String) a OBJETOS (Referencias).
+      - Servidor: Hace `rebind` (Publicar: "Soy 'Calculadora', estoy aquí").
+      - Cliente: Hace `lookup` (Buscar: "¿Dónde está 'Calculadora'?").
+
+
+
+
+
+3. ¿QUÉ ES EL STUB (TALÓN)?
+   Cuando el cliente hace `lookup`, no se baja el objeto entero. Recibe un
+   "Stub". El Stub es un objeto falso que vive en el cliente.
+   
+   Cuando el cliente ejecuta `stub.suma(1,2)`:
+   1. El Stub empaqueta los datos (1, 2).
+   2. Los envía por red al servidor.
+   3. El servidor recibe, desempaqueta y ejecuta la suma real.
+   4. El servidor envía el resultado (3) de vuelta.
+   5. El Stub recibe el 3 y se lo entrega a tu variable `resultado`.
+
+
+
+
+4. EXPLICACIÓN DE module-info.java (JAVA MODULAR)
+   Desde Java 9, el código se encapsula en módulos.
+   
+   - `requires java.rmi;`
+     Indica que tu proyecto depende de la librería estándar de RMI.
+   
+   - `exports paquete.servidor to java.rmi;`
+     RMI funciona usando "Reflexión" (Java mira el código por dentro en tiempo
+     de ejecución para construir los puentes de red).
+     Por defecto, los módulos prohíben esto por seguridad.
+     Esa línea da permiso explícito al sistema RMI para entrar en tu paquete
+     del servidor y "leer" tu clase para poder exportarla.
