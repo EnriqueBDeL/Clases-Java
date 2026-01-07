@@ -234,6 +234,11 @@ Ejemplos de Examen:
     <button>[Chat Multi-usuario con Canales y Mensajes Privados]</button>
   </a>
   <br>
+          Clase DAD 6
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/ClaseRMI1" target="_blank">
+    <button>[RMI]</button>
+  </a>
+  <br>
 </div>
 
 
