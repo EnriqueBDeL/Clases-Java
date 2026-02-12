@@ -266,6 +266,9 @@ Ejemplos de Examen:
   <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Configuraci%C3%B3n%20Tomcat.pdf" target="_blank">
     <button>[Configurar Tomcat]</button>
   </a>
+    <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/TomcatConfigurado" target="_blank">
+    <button>[Tomcat y Servidor Configurados]</button>
+  </a>
 
   
 </div>
