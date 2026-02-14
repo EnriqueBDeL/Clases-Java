@@ -274,6 +274,9 @@ Ejemplos de Examen:
   <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Configuraci%C3%B3n%20Servlets%20en%20Eclipse.pdf" target="_blank">
     <button>[Configurar Servlets]</button>
   </a>
+      <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/ServletConfigurado" target="_blank">
+    <button>[Servlet Configurado]</button>
+  </a>
 </div>
 
 
