@@ -269,8 +269,11 @@ Ejemplos de Examen:
     <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/TomcatConfigurado" target="_blank">
     <button>[Tomcat y Servidor Configurados]</button>
   </a>
-
-  
+<br>
+ DAD II Clase 2
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Configuraci%C3%B3n%20Servlets%20en%20Eclipse.pdf" target="_blank">
+    <button>[Configurar Servlets]</button>
+  </a>
 </div>
 
 
