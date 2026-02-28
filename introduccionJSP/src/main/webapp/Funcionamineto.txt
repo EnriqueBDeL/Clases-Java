@@ -1,0 +1,5 @@
+
+Si ejecutas Redirección, podrás ver como redireccionar la web a mostrar, en vez de index, verás destino.
+
+
+Si ejecutas index, podras ver el funcionamiento de Scriptlets.
