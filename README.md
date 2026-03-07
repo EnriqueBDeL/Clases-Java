@@ -292,6 +292,11 @@ Ejemplos de Examen:
   <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/Clase%20JSP/src/main" target="_blank">
     <button>[JSP + Servlet]</button>
   </a>
+       <br>
+   DAD II Clase 6
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/JSPExceptions/src/main" target="_blank">
+    <button>[Excepciones de JSP]</button>
+  </a>
 </div>
 
 
