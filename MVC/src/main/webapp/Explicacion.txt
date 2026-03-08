@@ -1,0 +1,9 @@
+MVC (Modelo-Vista-Controlador):
+
+s un patrón de arquitectura de software que sirve para organizar el código de una aplicación. Su objetivo principal es evitar que el código sea un caos dividiendo el programa en tres partes independientes, cada una con una responsabilidad única:
+
+M - Modelo (Los Datos y la Lógica): Es el "cerebro" y el almacén de la aplicación. Se encarga de gestionar la información, hablar con la base de datos y aplicar las reglas matemáticas o de negocio. No sabe absolutamente nada de páginas web ni de diseños. (Ejemplo en tu proyecto: las clases Titulacion.java o Usuario.java).
+
+V - Vista (La Interfaz): Es lo que el usuario ve y toca en su pantalla. Su único trabajo es coger los datos que le dan y "pintarlos" para que sean legibles y bonitos. (Ejemplo en tu proyecto: los archivos .jsp o HTML).
+
+C - Controlador (El Intermediario): Es el director de orquesta (o el camarero del restaurante). Recibe los clics o peticiones del usuario desde la Vista, va al Modelo a pedir o guardar los datos necesarios, y finalmente decide a qué nueva Vista debe enviar al usuario. (Ejemplo en tu proyecto: el Servlet Control.java y las acciones).
