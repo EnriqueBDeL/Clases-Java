@@ -302,6 +302,11 @@ Ejemplos de Examen:
   <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/MVC/src/main" target="_blank">
     <button>[MVC]</button>
   </a>
+          <br>
+   DAD II Clase 8
+  <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/ClaseFiltros/src/main" target="_blank">
+    <button>[Filters]</button>
+  </a>
 </div>
 
 
