@@ -1,0 +1,76 @@
+1. ¿QUÉ ES UN LISTENER (Escuchador)?
+------------------------------------------------------
+En una aplicación web Java, un Listener es una clase que funciona como un "vigilante" o "guardia de seguridad invisible". Su trabajo es estar "escuchando" constantemente en segundo plano esperando a que ocurran ciertos EVENTOS importantes en el servidor. 
+
+Cuando ese evento ocurre, el Listener se despierta automáticamente y ejecuta el código que le hayamos programado. 
+
+No necesitas llamarlo (como haces con un Servlet mediante una URL), el Listener actúa solo.
+
+
+
+2. ¿CÓMO FUNCIONA EN NUESTRA APLICACIÓN?
+------------------------------------------------------
+Los Listeners pueden vigilar muchas cosas. En nuestra aplicación, nuestro vigilante (MiPrimerListener) tiene dos trabajos al mismo tiempo:
+
+  A) Vigilar la Aplicación (ServletContextListener): 
+     Avisa cuando el servidor Tomcat se enciende y cuando se apaga.
+     
+  B) Vigilar las Sesiones (HttpSessionAttributeListener): 
+     Avisa cada vez que a un usuario se le guarda, modifica o borra un dato personal en su sesión (con setAttribute).
+     
+
+
+
+
+
+
+3. ¿DÓNDE SE UTILIZA EXACTAMENTE EN NUESTRO CÓDIGO?
+------------------------------------------------------
+Aquí tienes las partes clave donde el Listener actúa y se relaciona con el resto de la aplicación:
+
+
+
+
+
+PARTE A: El propio Listener (Archivo: MiPrimerListener.java)
+-------------------------------------------------------------
+- La etiqueta @WebListener:
+  Justo encima de la clase está escrito `@WebListener`. Esta es la placa de policía. Es la forma de decirle a Tomcat: "Oye, esta clase no es normal, es un vigilante, ponlo a escuchar desde el primer segundo".
+
+- El método contextInitialized():
+  Este método salta automáticamente en el milisegundo en el que enciendes Tomcat. 
+  ¿Qué hace por dentro?
+  sce.getServletContext().setAttribute("TITULACIONES", new Hashtable<String, Titulacion>());
+  -> Crea la "caja" vacía (Hashtable) y la deja guardada en la memoria global para que toda la aplicación pueda usarla.
+
+- Los métodos attributeAdded() y attributeReplaced():
+  Saltan solos cuando alguien guarda algo en una sesión. En nuestro código, simplemente imprimen un mensaje en la consola de Eclipse ("Atributo añadido" o "atributo modificado").
+
+
+
+
+
+
+
+PARTE B: El Provocador (Archivo: AddAtributoASesion.java)
+-------------------------------------------------------------
+En el Servlet, tenemos una línea de código que es la que "dispara" o "provoca" que el Listener actúe:
+
+  request.getSession().setAttribute("xxxx", "yyyy");
+  
+  -> Cuando el Servlet ejecuta esta línea, guarda el dato "yyyy" en la sesión. 
+  -> Inmediatamente, el servidor Tomcat grita: "¡Atención! ¡Alguien ha modificado una sesión!".
+  -> Nuestro MiPrimerListener lo escucha, se despierta y ejecuta su método attributeAdded(), imprimiendo el mensaje en tu consola.
+
+
+
+
+
+PARTE C: El Beneficiario (Archivo: index.jsp)
+-------------------------------------------------------------
+El JSP se aprovecha del trabajo que hizo el Listener al arrancar el servidor. 
+Utiliza esta línea:
+
+  Hashtable<String, Titulacion> tabla = (Hashtable<String, Titulacion>) request.getServletContext().getAttribute("TITULACIONES");
+  
+  -> El JSP va a buscar la variable global llamada "TITULACIONES". Si el Listener no hubiera existido y no hubiera creado esa Hashtable vacía al arrancar el servidor (en contextInitialized), esta línea daría un error fatal (NullPointerException) porque la caja no existiría.
