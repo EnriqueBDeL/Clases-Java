@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib uri="mistags" prefix="dad2" %> 
 
-<%-- Comentarios JSP (también conocidos como comentarios de servidor o comentarios ocultos) --%>
+<%-- Esto es un Comentarios JSP (también conocidos como comentarios de servidor o comentarios ocultos) --%>
 
 <%-- 
 - uri="mistags": Tiene que coincidir EXACTAMENTE con el <uri> de tu archivo .tld
