@@ -1,0 +1,58 @@
+<taglib> <!-- Defines la librería. -->
+
+    <tlib-version>1.0</tlib-version> <!-- Es la versión que tú te inventas para tu librería.  -->
+    <jsp-version>1.2</jsp-version> <!-- Le dice a Tomcat qué versión del estándar JSP necesitas para que esto funcione. -->
+    <short-name>hola</short-name> <!-- Es un "apodo" recomendado. Cuando uses estas etiquetas en tu JSP, normalmente llevarán este prefijo delante. -->
+   
+    <uri>mistags</uri> <!-- MUY IMPORTANTE! Es el "DNI" de tu librería. Cuando estés en tu página JSP, 
+    					usarás este nombre exacto (mistags) para importar este diccionario. -->
+    
+    <description>Etiquetas de ejemplo</description> <!-- Un simple texto para ti, para recordar qué hace esta librería. -->
+
+
+
+<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->    
+
+	
+    <tag><!-- Defines una etiqueta -->
+    	
+    	<name>holamundo</name> <!-- El nombre real que escribirás en tu JSP. Usando el apodo de arriba, en tu web escribirás. -->
+       
+        <tag-class>edu.ucam.tags.HolaMundoTag</tag-class>  <!-- El puente al código. Le dice a Tomcat: "Cuando veas esta etiqueta en el JSP, 
+        													  vete a este archivo Java y ejecuta lo que haya dentro". -->
+        
+        <body-content>empty</body-content> <!-- Permite que haya escrito entre la etiqueta de apertura y la de cierre en tu archivo JSP -->
+     
+     <!-- Valores:
+     - empty: Vacía
+     - JSP: Todo vale (HTML y Java)
+     - scriptless: Vale todo menos Java <% %>
+     - tagdependent: Tomcat ignora el contenido y se lo pasa en crudo al Java -->
+     
+     
+        <info>Saludo</info> <!-- Una descripción de lo que hace. -->
+        
+        <attribute> <!-- Aquí defines que tu etiqueta necesita variables (atributos) -->
+             <name>nombre</name> <!-- El atributo se llama "nombre" -->
+             <required>true</required> <!-- Este atributo es obligatorio, si usas la etiqueta sin el lanza error. -->
+        </attribute>
+        
+    </tag>
+    
+    
+	<!-- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->    
+    
+    <tag>
+    	<name>otraetiqueta</name>
+        <tag-class>edu.ucam.tags.AntonioTag</tag-class>
+        <info>Etiqueta solicitada por Antonio</info>
+        <attribute>
+             <name>nombre</name>
+             <required>false</required><!-- Este atributo es opcional, no dará ningun error usarla o no. -->
+        </attribute>
+    </tag>
+    
+</taglib>
+
+
+<!--  ESTO ES UN COMENTARIO -->
