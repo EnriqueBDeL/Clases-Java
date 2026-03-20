@@ -287,6 +287,9 @@ Ejemplos de Examen:
   <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/introduccionJSP" target="_blank">
     <button>[Introducción JSP]</button>
   </a>
+    <a href="https://github.com/EnriqueBDeL/Clases-Java/blob/main/Etiquetas%20JSP.jsp" target="_blank">
+    <button>[Etiquetas principales]</button>
+  </a>
       <br>
    DAD II Clase 5
   <a href="https://github.com/EnriqueBDeL/Clases-Java/tree/main/Clase%20JSP/src/main" target="_blank">
