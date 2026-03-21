@@ -1,0 +1,23 @@
+<taglib>
+
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>1.2</jsp-version>
+    <short-name>Examen de DAD2</short-name>
+    <uri>mistags</uri>
+    <description>Etiquetas del examen</description>	
+    
+    <tag>
+    
+    
+    <name>listar</name>
+        <tag-class>edu.ucam.tags.ListarHabitaciones</tag-class>
+        <body-content>empty</body-content>
+        <info>Saludo inicial</info>
+        
+        
+    </tag>
+    
+    
+    
+    
+</taglib>
