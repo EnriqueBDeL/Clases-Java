@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  
+  
+  <display-name>Jersey Web Application</display-name> <!-- Le da un nombre interno al proyecto. -->
+     
+     
+     <servlet>
+    <servlet-name>javax.ws.rs.core.Application</servlet-name> <!-- Le da un nombre interno a este servlet para poder referenciarlo más abajo.  -->
+    <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class> <!-- Indica qué clase de Java exacta va a hacer el trabajo. -->
+   
+    <init-param>
+      <param-name>jersey.config.server.provider.packages</param-name> <!-- Especifica el nombre de la configuración: le estás diciendo a Jersey "quiero indicarte en qué paquete buscar mis clases" -->
+      <param-value>edu.ucam.services</param-value>  <!-- Esto le indica a Jersey en qué carpeta (paquete) de tu proyecto Java debe buscar las clases que tienen los endpoints (las clases con etiquetas como @Path, @GET, @POST) -->
+    </init-param>
+    
+    <load-on-startup>1</load-on-startup> <!-- Hace que este motor arranque inmediatamente al encender el servidor. -->
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>javax.ws.rs.core.Application</servlet-name> <!-- Indica a qué servlet le vamos a aplicar la regla. -->
+    <url-pattern>/rest/*</url-pattern> <!-- Le dice al servidor que cualquier URL que el usuario pida y que empiece por /rest/ (por ejemplo, tusitio.com/rest/usuarios) no debe buscar una página web, sino que debe enviarse directamente a tu API Java para que la procese. -->
+  </servlet-mapping> 
+  
+  
+  <session-config>
+    <session-timeout>30</session-timeout> <!-- Establece que si un usuario entra a tu web y no hace nada durante 30 minutos, su sesión caducará automáticamente. -->
+  </session-config>
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file> <!-- Le dice que busque primero si existe un archivo llamado index.html y lo muestre. -->
+    <welcome-file>index.jsp</welcome-file> <!-- Le dice que, si no encuentra el archivo anterior, busque e intente mostrar el archivo index.jsp -->
+  </welcome-file-list>
+  
+  
+</web-app>
