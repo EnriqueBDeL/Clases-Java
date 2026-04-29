@@ -1,0 +1,4 @@
+Para poder implementar los
+servicios REST es necesario
+cargar las librerías de jersey en
+“src/main/webapp/WEB-INF/lib”
